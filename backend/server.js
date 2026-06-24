@@ -1,10 +1,4 @@
-/**
- * QueueCure Socket.IO backend.
- *
- * This standalone server keeps the same queue rules as the browser demo so the
- * hackathon can be deployed as a real-time receptionist service later. It also
- * exposes simple HTTP endpoints that return HTTP 400 for invalid requests.
- */
+
 
 import express from "express";
 import { createServer } from "http";
